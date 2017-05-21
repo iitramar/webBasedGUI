@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+}
+#container {
+	max-width: 100%;
+	height: 600px;
+}
+
+#buttons {
+	margin-top: 10px;
+}
+
+#left {
+	margin-left: 100px;
+}
+
+#right {
+	margin-left: 400px;
+}
+
+#center {
+	margin-left: 5px;
+}
+
+#userInput {
+	margin-left: 350px;
+}

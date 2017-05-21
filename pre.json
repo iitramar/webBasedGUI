@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "label": "0",
+      "x": 0,
+      "y": 0,
+      "size": 3,
+      "left" : "1",
+	"right" : "2"
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "x": -1,
+      "y": 1,
+      "size": 3,
+	"left" : "3",
+	"right" : "4"
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "x": 1,
+      "y": 1,
+      "size": 3,
+	"left" : "5",
+	"right" : "6"
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "x": -2,
+      "y": 2,
+      "size": 3,
+	"left" : "null",
+	"right" : "null"
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "x": -1,
+      "y": 2,
+      "size": 3,
+	"left" : "7",
+	"right" : "8"
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "x": 1,
+      "y": 2,
+      "size": 3,
+	"left" : "null",
+	"right" : "null"
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "x": 2,
+      "y": 2,
+      "size": 3,
+	"left" : "9",
+	"right" : "null"
+    },{
+      "id": "7",
+      "label": "7",
+      "x": -2,
+      "y": 3,
+      "size": 3,
+	"left" : "null",
+	"right" : "null"
+    },{
+      "id": "8",
+      "label": "8",
+      "x": 0,
+      "y": 3,
+      "size": 3,
+	"left" : "null",
+	"right" : "null"
+    },{
+      "id": "9",
+      "label": "9",
+      "x": 1,
+      "y": 3,
+      "size": 3,
+	"left" : "null",
+	"right" : "null"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "id": "e1",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "id": "e2",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "id": "e3",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "id": "e4",
+      "source": "2",
+      "target": "5"
+    },
+    {
+      "id": "e5",
+      "source": "2",
+      "target": "6"
+    },
+    {
+      "id": "e6",
+      "source": "4",
+      "target": "7"
+    },
+    {
+      "id": "e7",
+      "source": "4",
+      "target": "8"
+    },
+    {
+      "id": "e8",
+      "source": "6",
+      "target": "9"
+    }
+  ]
+}

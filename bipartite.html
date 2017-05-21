@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic sigma.js example</title>
+  <link rel="stylesheet" type="text/css" href="./public/styles/effects.css">
+</head>
+<body>
+  <div id="container"></div>
+  <div id="buttons">
+  	<button id="left" type="button" onclick="reset()">Reset</button>
+    M: <input type="number" id="m">
+    N: <input type="number" id="n">
+  	<button id="center" type="button" onclick="generate1()">Generate</button>
+  	<button id="right" type="button" onclick="maxBPM()" style="cursor: pointer;">Next</button>
+  </div>
+  <script src="./sigmajs/sigma.min.js"></script>
+  <script src="./sigmajs/plugins/sigma.parsers.json.min.js" type="text/javascript"></script>
+  <script src="./sigmajs/plugins/sigma.renderers.edgeLabels.min.js" type="text/javascript"></script>
+  <script src="./public/scripts/index2.js" type="text/javascript"></script>
+  <script src="./public/scripts/generator.js" type="text/javascript"></script>
+  <script src="./algorithms/bipartite.js" type="text/javascript"></script>
+</body>
+</html>
